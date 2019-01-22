@@ -1,0 +1,145 @@
+/**
+
+		Max width 1920 px;
+
+**/
+@media screen and (max-width: 1920px){
+	#portfolioSlider2 {
+		display: none;
+	}
+}
+/**
+
+		Max width 1200 px;
+
+**/
+@media screen and (max-width: 1200px){
+
+	/** Other style **/
+	h2 { /** Header title fo blocks **/
+		font-size: 30px;
+	}
+	/** Header **/
+	h1 { /* Header title */
+		font-size: 48px;
+	}
+	p.header-subtitle { /* Header subtitle */
+		font-size: 18px;
+	}
+	button.header-button-btn { /* Header button */
+		font-size: 20px;
+		padding: 20px 55px;
+	}
+
+	/** Services **/
+	#services .items h3.sub-title {
+		font-size: 14px;
+	}
+	#services .items p {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	/** Menu section **/
+	.nav.navbar-nav.navbar-right li a {
+		padding: 16px 5px 10px;
+	}
+	/** Slider section **/
+	#Brands .slides > li > div {
+		margin-bottom: 20px;
+	}
+	/** Testimonials **/
+	#testimonials {
+		display: none;
+	}
+
+	/** Footer **/
+	.footer-mane-menu {
+		display: none;
+	}
+	.row-two-contact {
+		padding-top: 30px;
+	}
+	/** Contact **/
+	#contact .contact-title h2 {
+		text-align: center;
+	}
+	#contact .contact-title h2:after {
+		display: block;
+	    content: "";
+	    width: 150px;
+	    margin: 15px auto 20px;
+	    border: 2px solid #00a5ff;
+	    border-radius: 5px;
+	}
+	/** Contact group **/
+	.form-group {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.form-group.subhect-section {
+		padding-left: 15px;
+	}
+	.button-send-section {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px){
+	/** Label section **/
+	#portfolioSlider {
+		display: none;
+	}
+	#portfolioSlider2 {
+		display: block;
+	}
+	/** Footer **/
+	#footer {
+		text-align: center;
+	}
+	.section-social-items {
+		float: none;
+	}
+	.left-section {
+		margin-bottom: 50px;
+	}
+	.left-section .addres-section h4, 
+	.left-section .call-uas-section h4, 
+	.left-section .email-section h4 {
+		font-size: 18px;
+		text-align: center;
+	}
+	.left-section .addres-section, 
+	.left-section .call-uas-section, 
+	.left-section .email-section {
+		font-size: 18px;
+		text-align: center;
+	}
+	/** Contact form **/
+	.form-group label {
+		font-size: 18px;
+	}
+	.form-group {
+		margin-bottom: 20px;
+	}
+	button[type="submit"]#form-submit {
+		font-size: 18px;
+	}
+	.form-group,
+	.form-group.subhect-section {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.button-send-section {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 460px){
+	/** Portfolio section **/
+	.portfolio-captions ul li span {
+		font-size: 12px;
+   		padding: 5px 5px;
+	}
+}
